@@ -1,0 +1,99 @@
+
+.services-page {
+  min-height: 100vh;
+  padding: 90px 30px 50px;
+  background: #f4f7fb;
+  text-align: center;
+}
+
+.services-page h1 {
+  color: #0b1d3a;
+  font-size: 45px;
+  margin-bottom: 35px;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.service-card {
+  background: white;
+  padding: 25px;
+  border-radius: 18px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.12);
+  border-top: 5px solid #f5b321;
+}
+
+.service-card img {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #f5b321;
+  margin-bottom: 18px;
+}
+
+.service-card h2 {
+  color: #0b1d3a;
+  font-size: 22px;
+  margin-bottom: 12px;
+}
+
+.service-card p {
+  color: #444;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.service-card a {
+  display: inline-block;
+  background: #f5b321;
+  color: #0b1d3a;
+  text-decoration: none;
+  padding: 12px 25px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.service-card a:hover {
+  background: #0b1d3a;
+  color: white;
+}
+
+.bank-section {
+  max-width: 1000px;
+  margin: 50px auto 0;
+  background: #0b1d3a;
+  color: white;
+  padding: 30px;
+  border-radius: 18px;
+}
+
+.bank-section h2 {
+  color: #f5b321;
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.bank-section p {
+  font-size: 22px;
+  line-height: 1.6;
+  font-weight: bold;
+}
+
+@media (max-width: 900px) {
+  .services-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+}
