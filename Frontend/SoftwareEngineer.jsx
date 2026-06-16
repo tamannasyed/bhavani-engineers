@@ -25,10 +25,7 @@ function SoftwareEngineer() {
           Example: Online Doctor Appointment & Management System
         </h2>
 
-        <video className="project-video" controls>
-          <source src="/tamanna-vedio.mp4.mp4" type="video/mp4" />
-          Your browser does not support video.
-        </video>
+        
 
         <a href="/tamanna work.jpg.jpeg" target="_blank" rel="noreferrer">
           <img

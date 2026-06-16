@@ -28,10 +28,7 @@ function ArchitectureDesign() {
 
         </h2>
 
-        <video className="project-video" controls>
-          <source src="/3D vedio.mp4.mp4" type="video/mp4" />
-          Your browser does not support video.
-        </video>
+       
         <p className="description">
            ✅ 2D Floor Plans <br />
 ✅ Building Elevation Designs <br />
@@ -61,10 +58,7 @@ function ArchitectureDesign() {
 ✓ Cost-effective planning and execution
 ✓ Faster approval process
         </p>
-         <video className="project-video" controls>
-          <source src="/Dhanya-Vedio.mp4.mp4" type="video/mp4" />
-          Your browser does not support video.
-        </video>
+        
        <p className="designation"> 📋 Licensed Land & Building Information
 We assist clients in understanding and obtaining necessary approvals and documentation related to land and building development.
  Proper licensing and legal compliance are essential for smooth construction and property transactions.</p> 
