@@ -40,11 +40,12 @@ Our Commitment
         </p>
 
 
+      
 
+  
         <h2 className="project-title">
          "Location creates opportunity; vision creates value."
         </h2>
-
 
 
       </div>
