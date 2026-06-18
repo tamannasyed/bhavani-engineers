@@ -4,17 +4,9 @@ function ArchitectureDesign() {
   return (
     <div className="detail-page">
       <div className="detail-card">
-        <h1>Architectural Consultant</h1>
+       
 
-        <img src="/Staff2.jpg.jpeg" alt="Dhanyashree" className="profile-photo" />
-
-        <h2 className="staff-name">Dhanyashree</h2>
-      <p className="qualification">
-        🎓Diploma in Civil Engineer
-      </p>
-        <p className="designation">Architectural Aspects 2D & 3D Design</p>
-        <p className="designation">Land & Building(CMC)License</p>
-           <p className="designation">Valuation Assistant</p>
+        
 
         <p className="description">
          🏛 Architectural 2D & 3D Design
