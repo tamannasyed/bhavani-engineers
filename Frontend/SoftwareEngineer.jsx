@@ -4,8 +4,7 @@ function SoftwareEngineer() {
   return (
     <div className="detail-page">
       <div className="detail-card">
-        <h1>Software Engineer</h1>
-
+       
         
         <p className="description">
           We create professional websites, college projects, business websites,
