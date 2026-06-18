@@ -113,21 +113,11 @@ function Valuation() {
 ✓ Property Inspection & Reporting</p>
 
 
-        <div className="button-group">
-          <a href="tel:8892968623" className="call-btn">
-            📞 Call Now
-          </a>
-
-          <a href="mailto:wasimsyedwasim719@gmail.com" className="email-btn">
-            📧 Email
-          </a>
-          <br />
-          
         <h2 className="project-title">
          "Every property has a value ; every value has a reason."
         </h2>
 
-        </div>
+      
 
       </div>
     </div>
