@@ -5,20 +5,6 @@ function Valuation() {
     <div className="detail-page">
       <div className="detail-card">
 
-        <h1>Administrative Officer</h1>
-         <p className="qualification">
-        🎓Diploma in Civil Engineer
-      </p>
-
-        <img
-          src="/Staff1.jpg.jpeg"
-          alt="Syed Wasim"
-          className="profile-photo"
-        />
-
-        <h2 className="staff-name">Syed Wasim</h2>
-
-        
         <p className="designation">Valuation Assistant</p>
         <p className="designation">Building Plan & Estimate</p>
         <p className="designation">Real Estate Consultancy</p>
@@ -113,12 +99,13 @@ function Valuation() {
 ✓ Property Inspection & Reporting</p>
 
 
+        
+          
         <h2 className="project-title">
          "Every property has a value ; every value has a reason."
         </h2>
 
-      
-
+        
       </div>
     </div>
   );
