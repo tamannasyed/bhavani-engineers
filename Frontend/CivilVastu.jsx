@@ -40,28 +40,13 @@ Our Commitment
         </p>
 
 
-      
-<div className="button-group">
 
- 
-
-  <a href="tel:7760060308" className="call-btn">
-    📞 Call Now
-  </a>
-
-  <a
-    href="mailto:srihari00009999@gmail.com"
-    className="email-btn"
-  >
-    📧 Email Me
-  </a>
-  
         <h2 className="project-title">
          "Location creates opportunity; vision creates value."
         </h2>
 
 
-</div>
+
       </div>
     </div>
   );
