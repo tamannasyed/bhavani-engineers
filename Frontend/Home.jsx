@@ -43,21 +43,34 @@ function Home() {
           <Link to="/about" className="main-btn">Explore Services</Link>
           <Link to="/contact" className="outline-btn">Contact Us Today</Link>
         </div>
-        
-  <a href="tel:7760060308" ">
-    📞 Call Now
-  </a>
-             
-  <a href="tel:8892968623" ">
-    📞 Call Now
-  </a>
-           
-  <a href="tel:9538676155" ">
-    📞 Call Now
-  </a>
-      
+      <div className="contact-wrapper">
+  <div className="contact-box">
+    <a href="tel:7760060308" className="phone-line">
+      <span className="call-icon">📞</span>
+      <span>7760060308</span>
+    </a>
 
+    <a href="tel:8892968623" className="phone-line">
+      <span className="call-icon">📞</span>
+      <span>8892968623</span>
+    </a>
 
+    <a href="tel:9538676155" className="phone-line">
+      <span className="call-icon">📞</span>
+      <span>9538676155</span>
+    </a>
+
+    <a href="mailto:srihari00009999@gmail.com" className="phone-line">
+      <span className="call-icon">✉️</span>
+      <span>srihari00009999@gmail.com</span>
+    </a>
+
+    <div className="phone-line">
+      <span className="call-icon">📍</span>
+      <span>Hunsur</span>
+    </div>
+  </div>
+</div>
       </div>
     </div>
   );
