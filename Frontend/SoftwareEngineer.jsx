@@ -6,16 +6,7 @@ function SoftwareEngineer() {
       <div className="detail-card">
         <h1>Software Engineer</h1>
 
-        <img src="/Staff4.jpg.jpeg" alt="Tamanna" className="profile-photo" />
-
-        <h2 className="staff-name">Tamanna</h2>
-      <p className="qualification">
-        🎓 Bachelor of Computer Applications (BCA)
-      </p>
-        <p className="designation">Website Developer - Frontend & Backend</p>
-        <p className="designation">Project Developer</p>
-           <p className="designation">Real Estate Consultancy</p>
-
+        
         <p className="description">
           We create professional websites, college projects, business websites,
           frontend and backend applications with modern design and clean development.
