@@ -11,7 +11,7 @@ function Services() {
         <div className="service-card">
           <img src="/Managing director.jpeg" alt="Civil Vastu" />
           
-             <h1>Sri Hari N</h1>
+             <h2>Sri Hari N</h2>
 
             <h2>Managing Director</h2>    
           <h2>AMICE(I),M.SC.(Val),PGDQV,FIV,CE,PE</h2>
@@ -24,22 +24,21 @@ function Services() {
 
         <div className="service-card">
           <img src="/Staff1.jpg.jpeg" alt="Real Estate" />
-          <h1>Syed Wasim(DCE)</h1>
+          <h2>Syed Wasim(DCE)</h2>
           
             <h2>Administrative Officer
             </h2>
 
           
 
-            <h3>Valuation Assistant</h3>
-
+            
        
         
         </div>
 
         <div className="service-card">
           <img src="/Staff4.jpg.jpeg" alt="Software Engineering" />
-          <h1>Tamanna(BCA)</h1>
+          <h2>Tamanna(BCA)</h2>
           <h2>Software Engineer</h2>
          
 
@@ -49,8 +48,8 @@ function Services() {
 
         <div className="service-card">
           <img src="/Staff2.jpg.jpeg" alt="Architecture" />
-          <h1>Dhanyashree</h1>
-         
+          <h2>Dhanyashree</h2>
+          <h2>Architectural Consultant</h2>
 
        
         </div>
@@ -58,12 +57,11 @@ function Services() {
         <div className="service-card">
           <img src="/Staff3.jpg.jpeg" alt="Building Plan" />
 
-          <h1>Syed Saif</h1>
+          <h2>Syed Saif</h2>
            <h2>Senior Valuer Assistant</h2>
            
 
-          <h3>Building Plan & Estimation</h3>
-           <h3>Architecture 2D & 3D Design</h3>
+         
         
           
         </div>
