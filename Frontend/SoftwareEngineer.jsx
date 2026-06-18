@@ -40,34 +40,13 @@ function SoftwareEngineer() {
           Express.js, MongoDB, REST APIs
         </p>
       
-<div className="button-group">
 
-  <a
-    href="https://razorpay.me/@tamanna5738"
-    target="_blank"
-    rel="noreferrer"
-    className="pay-btn"
-  >
-    💳 Pay Now
-  </a>
-
-  <a href="tel:9110656332" className="call-btn">
-    📞 Call Now
-  </a>
-
-  <a
-    href="mailto:tamannasyed61@gmail.com"
-    className="email-btn"
-  >
-    📧 Email Me
-  </a>
-  
         <h2 className="project-title">
          "Value is discoverd through knowledge , not assumptions."
         </h2>
 
 
-</div>
+
       </div>
     </div>
   );
