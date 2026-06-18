@@ -59,21 +59,7 @@ We assist clients in understanding and obtaining necessary approvals and documen
           <p className="designation">Why Choose Bhavani Engineers?< br/>
 With years of professional experience, Bhavani Engineers delivers reliable engineering, architectural, valuation, and consultancy services.
  We focus on quality, transparency, timely delivery, and customer satisfaction to help clients achieve successful project outcomes.</p>
-      
-<div className="button-group">
 
-  
-
-  <a href="tel:7892132401" className="call-btn">
-    📞 Call Now
-  </a>
-
-  <a
-    href="mailto:syedsaifulla95@gmail.com"
-    className="email-btn"
-  >
-    📧 Email Me
-  </a>
   
 
         <h2 className="project-title">
@@ -81,7 +67,7 @@ With years of professional experience, Bhavani Engineers delivers reliable engin
         </h2>
 
 
-</div>
+
       </div>
     </div>
   );
