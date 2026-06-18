@@ -13,58 +13,46 @@ function Services() {
           
              <h1>Sri Hari N</h1>
 
-            <h2>Managing Director</h2>     
+            <h2>Managing Director</h2>    
+          <h2>AMICE(I),M.SC.(Val),PGDQV,FIV,CE,PE</h2>
 
-          <h3>Civil & Vastu Consultancy</h3>
-           <h3>Real Estate Consultancy</h3>
+          <h2>Charted Engineer & IBBI</h2>
           <p>Govt. Registered Valuer</p>
-          <p>Get expert civil engineering and vastu consultation.</p>
-          <Link to="/civil-vastu">View Details</Link>
+         
+         
         </div>
 
         <div className="service-card">
           <img src="/Staff1.jpg.jpeg" alt="Real Estate" />
-          <h1>Syed Wasim</h1>
+          <h1>Syed Wasim(DCE)</h1>
           
-            <h2>Administrative Officer</h2>
+            <h2>Administrative Officer
+            </h2>
 
           
 
             <h3>Valuation Assistant</h3>
 
-            <h3>Building Plan & Estimate</h3>
-            <h3>Real Estate Consultancy</h3>
-          
-
-          <p>Professional valuation for land, buildings and banks</p>
-          <p>Property guidance, buying, selling and site support.</p>
-          
-          <Link to="/valuation">View Details</Link>
+       
+        
         </div>
 
         <div className="service-card">
           <img src="/Staff4.jpg.jpeg" alt="Software Engineering" />
-          <h1>Tamanna</h1>
+          <h1>Tamanna(BCA)</h1>
           <h2>Software Engineer</h2>
-          <h3>Website Developer -Frontend & Backend</h3>
-          <h3>Real Estate Consultancy</h3>
+         
 
-          <p>Professional website developer both frontend & backend </p>
-             <p> We provide projects for college students.</p>
-          <Link to="/software-engineer">View Details</Link>
+         
+        
         </div>
 
         <div className="service-card">
           <img src="/Staff2.jpg.jpeg" alt="Architecture" />
           <h1>Dhanyashree</h1>
-           <h2>Architectural Consultant</h2>
+         
 
-          <h3>Architectural Aspects 2D & 3D Design</h3>
-           <h3>Land & Building(CMC)License</h3>
-          <h3>Valuation Assistant</h3>
-
-          <p>We assist clients in understanding and obtaining necessary approvals and documentation related to land and building development. </p>
-          <Link to="/architecture-design">View Details</Link>
+       
         </div>
 
         <div className="service-card">
@@ -77,8 +65,7 @@ function Services() {
           <h3>Building Plan & Estimation</h3>
            <h3>Architecture 2D & 3D Design</h3>
         
-<p>Building planning, quantity calculation and estimate.</p>
-          <Link to="/building-plan">View Details</Link>
+          
         </div>
 
       </div>
