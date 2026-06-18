@@ -6,14 +6,7 @@ function CivilVastu() {
       
         <div className="detail-page">
       <div className="detail-card">
-        <h1>Managing Director</h1>
-
-           <img src="/Managing director.jpeg" alt="Tamanna" className="profile-photo" />
-
-        <h2 className="staff-name">Sri Hari </h2>
-      <p className="qualification">
-        🎓Chartered Engineer & IBBI Govt. Registered Valuer
-      </p>
+        
        
 
         <p className="description">
