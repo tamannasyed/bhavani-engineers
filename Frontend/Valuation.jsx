@@ -5,10 +5,7 @@ function Valuation() {
     <div className="detail-page">
       <div className="detail-card">
 
-        <p className="designation">Valuation Assistant</p>
-        <p className="designation">Building Plan & Estimate</p>
-        <p className="designation">Real Estate Consultancy</p>
-
+      
         <p className="description">
           Professional valuation services for land, buildings, residential,
           commercial and industrial properties.
