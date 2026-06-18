@@ -1,6 +1,6 @@
 import "./ServiceDetail.css";
 
-function ArchitectureDesign() {
+function BuildingPlan() {
   return (
     <div className="detail-page">
       <div className="detail-card">
@@ -59,13 +59,11 @@ We assist clients in understanding and obtaining necessary approvals and documen
           <p className="designation">Why Choose Bhavani Engineers?< br/>
 With years of professional experience, Bhavani Engineers delivers reliable engineering, architectural, valuation, and consultancy services.
  We focus on quality, transparency, timely delivery, and customer satisfaction to help clients achieve successful project outcomes.</p>
-
-  
+      
 
         <h2 className="project-title">
           "Professional valuation leads to confident decisions."
         </h2>
-
 
 
       </div>
@@ -73,4 +71,4 @@ With years of professional experience, Bhavani Engineers delivers reliable engin
   );
 }
 
-export default ArchitectureDesign;
+export default BuildingPlan;
