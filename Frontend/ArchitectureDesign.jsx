@@ -72,24 +72,11 @@ We assist clients in understanding and obtaining necessary approvals and documen
 With years of professional experience, Bhavani Engineers delivers reliable engineering, architectural, valuation, and consultancy services.
  We focus on quality, transparency, timely delivery, and customer satisfaction to help clients achieve successful project outcomes.</p>
       
-<div className="button-group">
 
-  
-
-  <a href="tel:9538676155" className="call-btn">
-    📞 Call Now
-  </a>
-
-  <a
-    href="mailto:dhanyaavinash66@gmail.com"
-    className="email-btn"     
-  >
-    📧 Email 
-  </a> 
   < br/>
   <h1>Your satisfaction is our priority</h1>
 
-</div>
+
       </div>
        
 
