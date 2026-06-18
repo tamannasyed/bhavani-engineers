@@ -4,17 +4,8 @@ function BuildingPlan() {
   return (
     <div className="detail-page">
       <div className="detail-card">
-        <h1>Senior Valuer Assistant</h1>
-
-        <img src="/Staff3.jpg.jpeg" alt="Syed Saifulla" className="profile-photo" />
-
-        <h2 className="staff-name">Syed Saifulla</h2>
-      <p className="qualification">
-        🎓BE in Civil
-      </p>
+       
         
-        <p className="designation">Building Plan & Estimation</p>
-           <p className="designation">Valuation Assistant</p>
 
         <p className="description">
          
