@@ -43,6 +43,20 @@ function Home() {
           <Link to="/about" className="main-btn">Explore Services</Link>
           <Link to="/contact" className="outline-btn">Contact Us Today</Link>
         </div>
+        
+  <a href="tel:7760060308" ">
+    📞 Call Now
+  </a>
+             
+  <a href="tel:8892968623" ">
+    📞 Call Now
+  </a>
+           
+  <a href="tel:9538676155" ">
+    📞 Call Now
+  </a>
+      
+
 
       </div>
     </div>
