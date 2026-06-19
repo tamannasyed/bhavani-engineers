@@ -57,7 +57,7 @@ function Home() {
 
     <a href="tel:9538676155" className="phone-line">
       <span className="call-icon">📞</span>
-      <span>9538676155</span>
+      <span>9110656332</span>
     </a>
 
     <a href="mailto:srihari00009999@gmail.com" className="phone-line">
