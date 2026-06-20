@@ -2,11 +2,11 @@
   width: 100%;
   min-height: 100vh;
   background: #f5f7fb;
-  padding: 40px 20px;
+  padding: 35px 20px;
 }
 
 .services-container {
-  max-width: 1100px;
+  max-width: 900px;
   margin: 0 auto;
 }
 
@@ -18,45 +18,45 @@
   margin-bottom: 35px;
 }
 
-/* First row */
+/* Managing Director Center */
 .director-row {
   display: flex;
   justify-content: center;
-  margin-bottom: 30px;
+  margin-bottom: 35px;
 }
 
-/* 3 cards row */
-.members-row {
+/* Staff 3 rows and 2 columns */
+.staff-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 25px;
-  margin-bottom: 30px;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 28px;
+  margin-bottom: 35px;
 }
 
-/* Card design */
+/* Card */
 .service-card {
   background: #ffffff;
   border-radius: 18px;
   border: 2px solid #d9a441;
   border-top: 4px solid #d9a441;
-  padding: 28px 18px;
+  padding: 26px 18px;
   text-align: center;
-  min-height: 260px;
+  min-height: 245px;
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
   transition: 0.3s ease;
 }
 
 .service-card:hover {
-  transform: translateY(-6px);
+  transform: translateY(-5px);
   box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
 }
 
 .director-card {
   width: 330px;
-  min-height: 310px;
+  min-height: 315px;
 }
 
-/* Round image */
+/* Round Photo */
 .profile-image {
   width: 115px;
   height: 115px;
@@ -82,9 +82,9 @@
   margin: 5px 0;
 }
 
-/* Bank box */
+/* Bank Box */
 .bank-box {
-  width: 78%;
+  width: 85%;
   margin: 45px auto 10px auto;
   background: #143d91;
   color: #ffffff;
@@ -103,23 +103,12 @@
 
 .bank-box p {
   color: #ffffff;
-  font-size: 19px;
+  font-size: 18px;
   font-weight: 600;
   line-height: 1.6;
 }
 
-/* Tablet */
-@media (max-width: 992px) {
-  .members-row {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  .bank-box {
-    width: 90%;
-  }
-}
-
-/* Mobile */
+/* Mobile View */
 @media (max-width: 768px) {
   .services-section {
     padding: 30px 15px;
@@ -129,9 +118,9 @@
     font-size: 32px;
   }
 
-  .members-row {
+  .staff-grid {
     grid-template-columns: 1fr;
-    gap: 20px;
+    gap: 22px;
   }
 
   .service-card,
