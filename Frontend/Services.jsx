@@ -6,16 +6,21 @@ const Services = () => {
     name: "Sri Hari N",
     role: "Managing Director",
     qualification1: "AMICE(I), M.Sc.(Val), PGDQV, FIV, CE, PE",
-    qualification2: "Chartered Engineer,Civil & Vastu Consultancy & IBBI",
+    qualification2: "Chartered Engineer, Civil & Vastu Consultancy & IBBI",
     qualification3: "Govt Registered Valuer",
     image: "/Managing director.jpeg",
   };
 
-  const secondRowMembers = [
+  const staffMembers = [
     {
       name: "Syed Saifulla",
       role: "Senior Valuer Consultant",
       image: "/Staff3.jpg.jpeg",
+    },
+    {
+      name: "Syed Wasim",
+      role: "Administrative officer",
+      image: "/Staff1.jpg.jpeg",
     },
     {
       name: "Dhanyashree",
@@ -23,21 +28,11 @@ const Services = () => {
       image: "/Staff2.jpg.jpeg",
     },
     {
-      name: "Syed Wasim",
-      role: "Administrative Officer",
-      image: "/Staff1.jpg.jpeg",
-    },
-    
-  ];
-
-  const thirdRowMembers = [
-   
-    {
       name: "Tamanna",
       role: "Software Developer",
       image: "/Staff4.jpg.jpeg",
     },
-     {
+    {
       name: "Rakshitha",
       role: "Valuer Consultant",
       image: "/Rakshu.jpg.jpeg",
@@ -52,9 +47,8 @@ const Services = () => {
   return (
     <section className="services-section">
       <div className="services-container">
-        <h1 className="services-heading">Our Services</h1>
+        <h1 className="services-heading">Our Office Staff</h1>
 
-        {/* First Row - Managing Director */}
         <div className="director-row">
           <div className="service-card director-card">
             <img
@@ -71,9 +65,8 @@ const Services = () => {
           </div>
         </div>
 
-        {/* Second Row - 3 Members */}
-        <div className="members-row">
-          {secondRowMembers.map((member, index) => (
+        <div className="staff-grid">
+          {staffMembers.map((member, index) => (
             <div className="service-card" key={index}>
               <img
                 src={member.image}
@@ -87,23 +80,6 @@ const Services = () => {
           ))}
         </div>
 
-        {/* Third Row - 3 Members */}
-        <div className="members-row">
-          {thirdRowMembers.map((member, index) => (
-            <div className="service-card" key={index}>
-              <img
-                src={member.image}
-                alt={member.name}
-                className="profile-image"
-              />
-
-              <h3>{member.name}</h3>
-              <p>{member.role}</p>
-            </div>
-          ))}
-        </div>
-
-        {/* Bank Empanelment Box */}
         <div className="bank-box">
           <h2>Empanelled Valuer With Major Banks</h2>
           <p>
