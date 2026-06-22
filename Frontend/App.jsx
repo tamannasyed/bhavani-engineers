@@ -1,7 +1,4 @@
-import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-
-import Navbar from "./Navbar";
 
 import Home from "./Home";
 import About from "./About";
@@ -18,20 +15,42 @@ import Valuation from "./Valuation";
 function App() {
   return (
     <BrowserRouter>
-      <Navbar />
-
       <Routes>
         <Route path="/" element={<Home />} />
+
         <Route path="/about" element={<About />} />
         <Route path="/services" element={<Services />} />
         <Route path="/contact" element={<Contact />} />
 
-        <Route path="/architecture-design" element={<ArchitectureDesign />} />
-        <Route path="/building-plan" element={<BuildingPlan />} />
-        <Route path="/civil-vastu" element={<CivilVastu />} />
-        <Route path="/real-estate" element={<RealEstate />} />
-        <Route path="/software-engineer" element={<SoftwareEngineer />} />
-        <Route path="/valuation" element={<Valuation />} />
+        <Route
+          path="/architecture-design"
+          element={<ArchitectureDesign />}
+        />
+
+        <Route
+          path="/building-plan"
+          element={<BuildingPlan />}
+        />
+
+        <Route
+          path="/civil-vastu"
+          element={<CivilVastu />}
+        />
+
+        <Route
+          path="/real-estate"
+          element={<RealEstate />}
+        />
+
+        <Route
+          path="/software-engineer"
+          element={<SoftwareEngineer />}
+        />
+
+        <Route
+          path="/valuation"
+          element={<Valuation />}
+        />
       </Routes>
     </BrowserRouter>
   );
