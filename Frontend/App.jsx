@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Analytics } from "@vercel/analytics/react";
 
 import Home from "./Home";
 import About from "./About";
@@ -14,45 +15,26 @@ import Valuation from "./Valuation";
 
 function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Home />} />
+    <>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
 
-        <Route path="/about" element={<About />} />
-        <Route path="/services" element={<Services />} />
-        <Route path="/contact" element={<Contact />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/services" element={<Services />} />
+          <Route path="/contact" element={<Contact />} />
 
-        <Route
-          path="/architecture-design"
-          element={<ArchitectureDesign />}
-        />
+          <Route path="/architecture-design" element={<ArchitectureDesign />} />
+          <Route path="/building-plan" element={<BuildingPlan />} />
+          <Route path="/civil-vastu" element={<CivilVastu />} />
+          <Route path="/real-estate" element={<RealEstate />} />
+          <Route path="/software-engineer" element={<SoftwareEngineer />} />
+          <Route path="/valuation" element={<Valuation />} />
+        </Routes>
+      </BrowserRouter>
 
-        <Route
-          path="/building-plan"
-          element={<BuildingPlan />}
-        />
-
-        <Route
-          path="/civil-vastu"
-          element={<CivilVastu />}
-        />
-
-        <Route
-          path="/real-estate"
-          element={<RealEstate />}
-        />
-
-        <Route
-          path="/software-engineer"
-          element={<SoftwareEngineer />}
-        />
-
-        <Route
-          path="/valuation"
-          element={<Valuation />}
-        />
-      </Routes>
-    </BrowserRouter>
+      <Analytics />
+    </>
   );
 }
 
