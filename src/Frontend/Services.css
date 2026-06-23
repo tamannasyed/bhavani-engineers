@@ -1,0 +1,158 @@
+.services-section {
+  width: 100%;
+  min-height: 100vh;
+  background: #f5f7fb;
+  padding: 35px 20px;
+}
+
+.services-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.services-heading {
+  text-align: center;
+  font-size: 42px;
+  font-weight: 700;
+  color: #2d2d5f;
+  margin-bottom: 35px;
+}
+
+/* Managing Director Center */
+.director-row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 35px;
+}
+
+/* Staff 3 rows and 2 columns */
+.staff-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 28px;
+  margin-bottom: 35px;
+}
+
+/* Card */
+.service-card {
+  background: #ffffff;
+  border-radius: 18px;
+  border: 2px solid #d9a441;
+  border-top: 4px solid #d9a441;
+  padding: 26px 18px;
+  text-align: center;
+  min-height: 245px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  transition: 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
+}
+
+.director-card {
+  width: 330px;
+  min-height: 315px;
+}
+
+/* Round Photo */
+.profile-image {
+  width: 115px;
+  height: 115px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #d9a441;
+  padding: 3px;
+  background: #ffffff;
+  margin-bottom: 16px;
+}
+
+.service-card h3 {
+  font-size: 22px;
+  font-weight: 600;
+  color: #252552;
+  margin-bottom: 10px;
+}
+
+.service-card p {
+  font-size: 17px;
+  color: #303052;
+  line-height: 1.5;
+  margin: 5px 0;
+}
+
+/* Bank Box */
+.bank-box {
+  width: 85%;
+  margin: 45px auto 10px auto;
+  background: #143d91;
+  color: #ffffff;
+  text-align: center;
+  padding: 25px 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.18);
+}
+
+.bank-box h2 {
+  color: #f4b942;
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.bank-box p {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.6;
+}
+
+/* Mobile View */
+@media (max-width: 768px) {
+  .services-section {
+    padding: 30px 15px;
+  }
+
+  .services-heading {
+    font-size: 32px;
+  }
+
+  .staff-grid {
+    grid-template-columns: 1fr;
+    gap: 22px;
+  }
+
+  .service-card,
+  .director-card {
+    width: 100%;
+    max-width: 340px;
+    margin: 0 auto;
+  }
+
+  .profile-image {
+    width: 105px;
+    height: 105px;
+  }
+
+  .service-card h3 {
+    font-size: 20px;
+  }
+
+  .service-card p {
+    font-size: 16px;
+  }
+
+  .bank-box {
+    width: 100%;
+    padding: 22px 15px;
+  }
+
+  .bank-box h2 {
+    font-size: 21px;
+  }
+
+  .bank-box p {
+    font-size: 15px;
+  }
+}
