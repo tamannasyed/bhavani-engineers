@@ -1,27 +1,35 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import "./App.css";
+import "./Navbar.css";
 
 function Navbar() {
-  const [open, setOpen] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <div className="navbar">
-      <button className="menu-btn" onClick={() => setOpen(!open)}>
-        ☰
-      </button>
+    <>
+      <header className="main-navbar">
+        <div className="navbar-title">Bhavani Engineers</div>
 
-      <h2 className="nav-title">Bhavani Engineers</h2>
+        <button className="navbar-menu-btn" onClick={() => setMenuOpen(true)}>
+          ☰
+        </button>
+      </header>
 
-      {open && (
-        <div className="dropdown-menu">
-          <Link to="/" onClick={() => setOpen(false)}>Home</Link>
-          <Link to="/about" onClick={() => setOpen(false)}>About</Link>
-          <Link to="/services" onClick={() => setOpen(false)}>Services</Link>
-          <Link to="/contact" onClick={() => setOpen(false)}>Contact</Link>
-        </div>
+      {menuOpen && (
+        <div className="navbar-overlay" onClick={() => setMenuOpen(false)}></div>
       )}
-    </div>
+
+      <div className={menuOpen ? "navbar-side-menu active" : "navbar-side-menu"}>
+        <button className="navbar-close-btn" onClick={() => setMenuOpen(false)}>
+          ✕
+        </button>
+
+        <Link to="/" onClick={() => setMenuOpen(false)}>Home</Link>
+        <Link to="/about" onClick={() => setMenuOpen(false)}>About</Link>
+        <Link to="/services" onClick={() => setMenuOpen(false)}>Services</Link>
+        <Link to="/contact" onClick={() => setMenuOpen(false)}>Contact</Link>
+      </div>
+    </>
   );
 }
 

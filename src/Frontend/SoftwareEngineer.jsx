@@ -12,7 +12,7 @@ function SoftwareEngineer() {
         </p>
 
         <h2 className="project-title">
-          Example: Online Doctor Appointment & Management System
+         Project report for bank loans.
         </h2>
 
         

@@ -1,76 +1,212 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .contact-page {
   min-height: 100vh;
-  background: linear-gradient(135deg, #0b1d3a, #1f4c8f);
+  font-family: Arial, sans-serif;
+  background:
+    linear-gradient(rgba(10, 30, 60, 0.75), rgba(10, 30, 60, 0.75)),
+    url("/wasim visit (5).jpeg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.contact-overlay {
+  min-height: 100vh;
+  padding: 80px 20px;
+}
+
+.contact-container {
+  max-width: 1050px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.94);
+  border-radius: 24px;
+  padding: 50px 45px;
+  box-shadow: 0 15px 45px rgba(0, 0, 0, 0.25);
+}
+
+.contact-container h1 {
+  text-align: center;
+  font-size: 42px;
+  color: #1f2a44;
+  margin-bottom: 15px;
+  font-weight: 800;
+}
+
+.contact-subtitle {
+  text-align: center;
+  max-width: 750px;
+  margin: 0 auto 35px;
+  font-size: 18px;
+  line-height: 1.7;
+  color: #41516d;
+  font-weight: 500;
+}
+
+.contact-top-buttons {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+  margin-bottom: 45px;
+}
+
+.contact-top-buttons a {
+  text-decoration: none;
+  background: linear-gradient(135deg, #f7a51c, #e86f16);
+  color: #ffffff;
+  padding: 17px 20px;
+  border-radius: 12px;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  transition: 0.3s ease;
+  box-shadow: 0 8px 20px rgba(232, 111, 22, 0.28);
+}
+
+.contact-top-buttons a:hover {
+  transform: translateY(-4px);
+  background: linear-gradient(135deg, #1f2a44, #10213f);
+}
+
+.branch-details {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  margin-bottom: 45px;
+}
+
+.branch-card {
+  background: #ffffff;
+  padding: 35px 32px;
+  border-radius: 20px;
+  border-top: 6px solid #f7a51c;
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.12);
+  min-height: 280px;
+}
+
+.branch-card h2 {
+  text-align: center;
+  color: #d62828;
+  font-size: 28px;
+  margin-bottom: 22px;
+  font-weight: 800;
+}
+
+.branch-card p {
+  color: #154734;
+  font-size: 19px;
+  line-height: 1.9;
+  font-weight: 600;
+}
+
+.contact-number-wrapper {
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 20px;
 }
 
-.contact-card {
+.contact-numbers {
   width: 100%;
-  max-width: 700px;
-  background: white;
+  max-width: 620px;
+  background: #ffffff;
+  padding: 38px 35px;
   border-radius: 20px;
-  padding: 40px;
+  border-top: 6px solid #f7a51c;
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.14);
   text-align: center;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
 }
 
-.contact-card h1 {
-  color: #0b1d3a;
-  font-size: 40px;
-  margin-bottom: 20px;
+.contact-numbers h2 {
+  color: #d62828;
+  font-size: 30px;
+  margin-bottom: 25px;
+  font-weight: 800;
 }
 
-.contact-text {
-  color: #555;
-  font-size: 18px;
-  margin-bottom: 30px;
-  line-height: 1.6;
+.contact-numbers p {
+  color: #154734;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 13px 0;
 }
 
-.contact-buttons {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-}
-
-.contact-btn {
+.contact-numbers a {
+  color: #154734;
   text-decoration: none;
-  padding: 15px;
-  border-radius: 10px;
-  font-size: 18px;
-  font-weight: bold;
-  transition: 0.3s;
+  font-weight: 800;
 }
 
-.contact-btn:hover {
-  transform: translateY(-3px);
+.contact-numbers a:hover {
+  color: #f7a51c;
+  text-decoration: underline;
 }
 
-.call-btn {
-  background: #f5b321;
-  color: black;
+/* Tablet */
+@media (max-width: 900px) {
+  .contact-container {
+    padding: 40px 25px;
+  }
+
+  .contact-top-buttons {
+    grid-template-columns: 1fr;
+  }
+
+  .branch-details {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-container h1 {
+    font-size: 34px;
+  }
 }
 
-.whatsapp-btn {
-  background: #25d366;
-  color: white;
-}
+/* Mobile */
+@media (max-width: 600px) {
+  .contact-overlay {
+    padding: 60px 14px;
+  }
 
-.email-btn {
-  background: #4285f4;
-  color: white;
-}
+  .contact-container {
+    padding: 32px 18px;
+    border-radius: 18px;
+  }
 
-.location-btn {
-  display: block;
-  background: #ff6b8a;
-  color: white;
-  text-decoration: none;
-  text-align: center;
-  padding: 15px;
-  border-radius: 10px;
-  font-weight: bold;
+  .contact-container h1 {
+    font-size: 30px;
+  }
+
+  .contact-subtitle {
+    font-size: 16px;
+  }
+
+  .branch-card {
+    padding: 28px 22px;
+    min-height: auto;
+  }
+
+  .branch-card h2 {
+    font-size: 24px;
+  }
+
+  .branch-card p {
+    font-size: 17px;
+    text-align: center;
+  }
+
+  .contact-numbers {
+    padding: 30px 18px;
+  }
+
+  .contact-numbers h2 {
+    font-size: 25px;
+  }
+
+  .contact-numbers p {
+    font-size: 17px;
+  }
 }

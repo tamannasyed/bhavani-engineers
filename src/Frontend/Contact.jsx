@@ -1,49 +1,92 @@
+import React from "react";
 import "./Contact.css";
 
 function Contact() {
   return (
     <div className="contact-page">
-      <div className="contact-card">
+      <div className="contact-overlay">
+        <section className="contact-container">
+          <h1>Contact Bhavani Engineers</h1>
 
-        <h1>Contact Us</h1>
+          <p className="contact-subtitle">
+            For civil consultancy, valuation, building plan, real estate and
+            vastu consultancy, contact us.
+          </p>
 
-        <p className="contact-text">
-          Get in touch with Bhavani Engineers for Civil Engineering,
-          Architecture, Valuation, Vastu, Real Estate and Software Services.
-        </p>
+          <div className="contact-top-buttons">
+            <a href="tel:+917760060308">📞 Call Now</a>
 
-        <div className="contact-buttons">
+            <a href="mailto:srihari00009999@gmail.com">📧 Email Us</a>
 
-          <a href="tel:7760060308" className="contact-btn call-btn">
-            📞 Call Now
-          </a>
+            <a
+              href="https://www.google.com/maps/search/?api=1&query=Bhavani+Engineers+Hunsur"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              📍 View Location
+            </a>
+          </div>
 
-          <a
-            href="https://wa.me/917760060308"
-            target="_blank"
-            rel="noreferrer"
-            className="contact-btn whatsapp-btn"
-          >
-            💬 WhatsApp
-          </a>
+          <div className="branch-details">
+            <div className="branch-card">
+              <h2>Main Branch</h2>
 
-          <a
-            href="mailto:srihari00009999@gmail.com"
-            className="contact-btn email-btn"
-          >
-            📧 Email Us
-          </a>
- <a
-  href="https://maps.google.com/?q=Bhavani+Engineers+Hunsur"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="location-btn"
->
-  📍 View Location
-</a>
+              <p>
+                No. 1833/33, Opp. SRS Super Market,
+                <br />
+                Beside St. Joseph’s Convent,
+                <br />
+                Gokula Road,
+                <br />
+                Hunsur - 571105,
+                <br />
+                Dist: Mysore.
+              </p>
+            </div>
 
-        </div>
+            <div className="branch-card">
+              <h2>Branch Office</h2>
 
+              <p>
+                # 51/3, 2nd Cross,
+                <br />
+                Gundurao Nagar,
+                <br />
+                Ooty Road,
+                <br />
+                Mysore - 570025.
+              </p>
+            </div>
+          </div>
+
+          <div className="contact-number-wrapper">
+            <div className="contact-numbers">
+              <h2>Contact Numbers</h2>
+
+              <p>
+                <strong>Mobile 1:</strong>{" "}
+                <a href="tel:+917760060308">7760060308</a>
+              </p>
+
+              <p>
+                <strong>Mobile 2:</strong>{" "}
+                <a href="tel:+918892968623">8892968623</a>
+              </p>
+
+              <p>
+                <strong>Mobile 3:</strong>{" "}
+                <a href="tel:+919110656332">9110656332</a>
+              </p>
+
+              <p>
+                <strong>Email:</strong>{" "}
+                <a href="mailto:srihari00009999@gmail.com">
+                  srihari00009999@gmail.com
+                </a>
+              </p>
+            </div>
+          </div>
+        </section>
       </div>
     </div>
   );

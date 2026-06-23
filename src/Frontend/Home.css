@@ -492,3 +492,73 @@ html {
   text-decoration: none;
   border-bottom: 1px solid #eeeeee;
 }
+.branch-details {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  max-width: 950px;
+  margin: 45px auto 25px;
+}
+
+.branch-card {
+  background: #ffffff;
+  color: #1f2a44;
+  padding: 28px 25px;
+  border-radius: 16px;
+  border-top: 5px solid #f7a51c;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+  text-align: left;
+}
+
+.branch-card h3 {
+  font-size: 24px;
+  color: #d62828;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.branch-card p {
+  font-size: 17px;
+  line-height: 1.8;
+  color: #154734;
+  font-weight: 600;
+}
+
+.contact-extra {
+  margin-top: 25px;
+  text-align: center;
+}
+
+.contact-extra p {
+  font-size: 20px;
+  margin: 8px 0;
+  color: #ffffff;
+}
+
+.contact-extra a {
+  color: #f7a51c;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.contact-extra a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 700px) {
+  .branch-details {
+    grid-template-columns: 1fr;
+  }
+
+  .branch-card {
+    text-align: center;
+  }
+
+  .branch-card p {
+    font-size: 16px;
+  }
+
+  .contact-extra p {
+    font-size: 17px;
+  }
+}
