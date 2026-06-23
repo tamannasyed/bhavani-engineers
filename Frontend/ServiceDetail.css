@@ -1,0 +1,225 @@
+.detail-page {
+  min-height: 100vh;
+  padding: 90px 20px 50px;
+  background:
+    linear-gradient(rgba(2, 8, 23, 0.82), rgba(2, 8, 23, 0.88)),
+    url("/banner.jpeg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+}
+
+.detail-card {
+  width: 100%;
+  max-width: 1000px;
+  text-align: center;
+  background: rgba(15, 23, 42, 0.92);
+  border: 2px solid #f5b321;
+  border-radius: 25px;
+  padding: 45px 35px;
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.45);
+}
+
+.detail-card h1 {
+  color: #f5b321;
+  font-size: 50px;
+  font-weight: 900;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+}
+
+.profile-photo {
+  width: 190px;
+  height: 190px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid #f5b321;
+  margin: 10px auto 20px;
+  display: block;
+}
+
+.staff-name {
+  color: #ffffff;
+  font-size: 38px;
+  font-weight: 800;
+  margin: 10px 0;
+}
+
+.designation {
+  color: #dbeafe;
+  font-size: 21px;
+  font-weight: 600;
+  margin: 7px 0;
+}
+
+.description {
+  color: #f1f5f9;
+  font-size: 20px;
+  line-height: 1.8;
+  max-width: 850px;
+  margin: 25px auto;
+}
+
+.project-title {
+  color: #f5b321;
+  font-size: 30px;
+  font-weight: 800;
+  margin: 30px 0 20px;
+}
+
+.project-video {
+  width: 90%;
+  max-width: 800px;
+  border: 3px solid #f5b321;
+  border-radius: 18px;
+  display: block;
+  margin: 20px auto;
+  background: black;
+}
+
+.project-image {
+  width: 100%;
+  max-width: 500px;
+  height: 350px;
+  object-fit: cover;
+  display:block;
+  margin: 25px auto;
+  border-radius: 18px;
+  border: 3px solid #f5b321;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.project-image:hover {
+  transform: scale(1.04);
+}
+
+.tech-stack {
+  color: #93c5fd;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.7;
+  margin: 25px auto;
+  max-width: 850px;
+}
+
+.button-group {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.pay-btn,
+.call-btn,
+.email-btn {
+  display: inline-block;
+  padding: 14px 28px;
+  border-radius: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 700;
+  transition: 0.3s ease;
+  border: none;
+  cursor: pointer;
+}
+
+/* Pay Button */
+.pay-btn {
+  background: #f5b321;
+  color: #061426;
+}
+
+.pay-btn:hover {
+  background: #ffd166;
+  transform: translateY(-3px);
+}
+
+/* Call Button */
+.call-btn {
+  background: #22c55e;
+  color: white;
+}
+
+.call-btn:hover {
+  background: #16a34a;
+  transform: translateY(-3px);
+}
+
+/* Email Button */
+.email-btn {
+  background: #2563eb;
+  color: white;
+}
+
+.email-btn:hover {
+  background: #1d4ed8;
+  transform: translateY(-3px);
+}
+
+@media (max-width: 768px) {
+  .button-group {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .pay-btn,
+  .call-btn,
+  .email-btn {
+    width: 220px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .detail-card {
+    padding: 30px 18px;
+  }
+
+  .detail-card h1 {
+    font-size: 34px;
+  }
+
+  .project-image,
+  .project-video {
+    width: 100%;
+  }
+  
+}
+.qualification{
+  color: #f5b321;
+  font-size: 22px;
+  font-weight: 700;
+  margin: 10px 0;
+}
+.achievement-box {
+  margin-top: 25px;
+  padding: 20px;
+  background: rgba(255,255,255,0.1);
+  border: 2px solid #f5b321;
+  border-radius: 15px;
+}
+
+.achievement-box p {
+  color: white;
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.email-btn {
+  display: inline-block;
+  margin-left: 15px;
+  margin-top: 25px;
+  padding: 12px 30px;
+  background: #ffffff;
+  color: #0b1d3a;
+  text-decoration: none;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.email-btn:hover {
+  background: #f5b321;
+}
