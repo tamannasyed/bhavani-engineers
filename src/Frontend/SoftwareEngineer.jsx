@@ -12,18 +12,32 @@ function SoftwareEngineer() {
         </p>
 
         <h2 className="project-title">
-         Project report for bank loans.
-        </h2>
+         Project report for bank loans. </h2>
+          <p className="description">
+         1.Land Purchase Loan <br />
+
+         2.Building Construction loan  <br />
+
+         3.Machinery Loan  <br />
+
+         4.Equipment Loan <br />
+
+
+         5.Vehicle Loan <br />
+
+
+         6.Working Capital Loan <br />
+
+
+         7.Stock / Inventory Loan <br />
+
+
+         8.Furniture & Fixtures Loan <br />
+    
+        
+        </p>
 
         
-
-        <a href="/tamanna work.jpg.jpeg" target="_blank" rel="noreferrer">
-          <img
-            src="/tamanna work.jpg.jpeg"
-            alt="Tamanna Work"
-            className="project-image software-image"
-          />
-        </a>
 
         <p className="tech-stack">
           Technologies Used: HTML, CSS, JavaScript, React.js, Node.js,

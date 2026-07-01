@@ -42,11 +42,7 @@ function BuildingPlan() {
 We assist clients in understanding and obtaining necessary approvals and documentation related to land and building development.
  Proper licensing and legal compliance are essential for smooth construction and property transactions.</p> 
 
-<img
-            src="/saif visit.jpg.jpeg"
-            alt="saif work"
-            className="project-image architecture-image"
-          />
+
           <p className="designation">Why Choose Bhavani Engineers?< br/>
 With years of professional experience, Bhavani Engineers delivers reliable engineering, architectural, valuation, and consultancy services.
  We focus on quality, transparency, timely delivery, and customer satisfaction to help clients achieve successful project outcomes.</p>

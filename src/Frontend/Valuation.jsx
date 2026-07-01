@@ -12,12 +12,7 @@ function Valuation() {
         </p>
 
         
-        <img
-          src="/wasim visit (1).jpeg"
-          alt="Property Valuation Work"
-          className="project-image"
-        />
-
+       
         <p className="description">
           We provide accurate market value assessment, bank valuation,
           property verification, documentation support and real estate consultancy.
@@ -30,11 +25,6 @@ function Valuation() {
           Property Valuation & Consultancy Services
         </h2>
 
-        <img
-          src="/wasim visit (2).jpeg"
-          alt="Property Valuation Work"
-          className="project-image"
-        />
 
         <p className="description">Why Property Valuation is Required <br />
 
@@ -49,11 +39,7 @@ function Valuation() {
 
        
         
-        <img
-          src="/wasim visit (3).jpeg"
-          alt="Property Valuation Work"
-          className="project-image"
-        />
+       
 
         <p className="description"> Factors Considered in Property Valuation  <br />
    ✓ Location – Main roads, schools, hospitals, and commercial areas nearby.  <br />
@@ -66,11 +52,7 @@ function Valuation() {
    ✓ Legal Documents – Clear title, approvals, and ownership records.</p>
 
         
-        <img
-          src="/wasim visit (4).jpeg"
-          alt="Property Valuation Work"
-          className="project-image"
-        />
+       
         
         <p className="description">
           Services: Property Valuation • Bank Valuation • Building Plan & Estimate •
@@ -80,11 +62,7 @@ function Valuation() {
 
 
         
-        <img
-          src="/wasim visit (5).jpeg"
-          alt="Property Valuation Work"
-          className="project-image"
-        />
+        
 
         <p className="description">
           ✓ Residential Property Valuation <br />

@@ -33,13 +33,7 @@ function ArchitectureDesign() {
 ✅ Renovation and Remodeling Plans <br />
 ✅ Architectural Consultation <br /></p>
 
-        <a href="/Dhanya 2D.jpg.jpeg" target="_blank" rel="noreferrer">
-          <img
-            src="/Dhanya 2D.jpg.jpeg"
-            alt="Dhanya work"
-            className="project-image architecture-image"
-          />
-        </a>
+       
          
 
         <p className="designation">
@@ -55,11 +49,7 @@ function ArchitectureDesign() {
 We assist clients in understanding and obtaining necessary approvals and documentation related to land and building development.
  Proper licensing and legal compliance are essential for smooth construction and property transactions.</p> 
 
-<img
-            src="/Dhanya visit.jpg.jpeg"
-            alt="Dhanya work"
-            className="project-image architecture-image"
-          />
+
           <p className="designation">Why Choose Bhavani Engineers?< br/>
 With years of professional experience, Bhavani Engineers delivers reliable engineering, architectural, valuation, and consultancy services.
  We focus on quality, transparency, timely delivery, and customer satisfaction to help clients achieve successful project outcomes.</p>
