@@ -4,83 +4,43 @@ function Valuation() {
   return (
     <div className="detail-page">
       <div className="detail-card">
+        <h2 className="project-title">Valuation</h2>
 
-      
-        <p className="description">
-          Professional valuation services for land, buildings, residential,
-          commercial and industrial properties.
-        </p>
+        <div className="service-content">
+          <div className="service-item">
+            <h4>Significance of Valuation</h4>
+            <p>
+              Valuation in real estate means estimating the present fair market value of land, a building, or any property.
+               It is prepared by a qualified valuer after checking the location, size, condition, age, construction quality, 
+               legal documents, market demand, and recent sale prices.
 
-        
-       
-        <p className="description">
-          We provide accurate market value assessment, bank valuation,
-          property verification, documentation support and real estate consultancy.
-        </p>
 
-        <p className="description">Property Valuation is the process of estimating the current market value of a property
-           (land, house, apartment, commercial building, industrial property, etc.). It is usually done by a qualified valuer or engineer.</p>
+            </p>
+          </div>
 
-        <h2 className="project-title">
-          Property Valuation & Consultancy Services
+          <div className="service-item">
+            <h4></h4>
+            <p>
+             The main merit of valuation is that it gives a fair and reliable property value.
+              It helps buyers and sellers avoid financial loss and supports correct decision-making.
+
+            </p>
+          </div>
+
+          <div className="service-item">
+            <h4></h4>
+            <p>
+              The purposes of valuation are property purchase or sale, bank loans, taxation, insurance,
+               rent fixation, mortgage, division of family property, compensation, court cases, investment, accounting, and auction of property.
+            </p>
+          </div>
+
+         
+        </div>
+
+        <h2 className="bottom-quote">
+          “Location creates opportunity; vision creates value.”
         </h2>
-
-
-        <p className="description">Why Property Valuation is Required <br />
-
-* Home loan and mortgage approval <br />
-* Buying and selling property     <br />
-* Bank loan against property      <br />
-* Income tax and capital gains calculations <br />
-* Court and legal matters    <br />
-* Property partition among family members <br />
-* Insurance purposes   <br />
-* Government acquisition and compensation</p> 
-
-       
-        
-       
-
-        <p className="description"> Factors Considered in Property Valuation  <br />
-   ✓ Location – Main roads, schools, hospitals, and commercial areas nearby.  <br />
-   ✓ Land Area – Site dimensions and total area.  <br />
-   ✓ Building Area – Built-up area and number of floors.  <br />
-   ✓ Age of Building – Newer buildings generally have higher value.  <br />
-   ✓ Construction Quality – Materials and workmanship used.  <br />
-   ✓ Market Trends – Current property demand and market rates.  <br />
-   ✓ Road Width & Access – Corner sites and wider roads increase value.  <br />
-   ✓ Legal Documents – Clear title, approvals, and ownership records.</p>
-
-        
-       
-        
-        <p className="description">
-          Services: Property Valuation • Bank Valuation • Building Plan & Estimate •
-          Real Estate Consultancy • Documentation Support
-        </p>
-        
-
-
-        
-        
-
-        <p className="description">
-          ✓ Residential Property Valuation <br />
-✓ Commercial Property Valuation <br />
-✓ Industrial Property Valuation <br />
-✓ Bank Loan Valuation <br />
-✓ Legal & Taxation Valuation <br />
-✓ Market Value Assessment <br />
-✓ Property Inspection & Reporting</p>
-
-
-        
-          
-        <h2 className="project-title">
-         "Every property has a value ; every value has a reason."
-        </h2>
-
-        
       </div>
     </div>
   );

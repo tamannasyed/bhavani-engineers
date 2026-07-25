@@ -1,31 +1,106 @@
+/* =========================
+   MAIN SERVICE DETAIL PAGE
+========================= */
+
 .detail-page {
   min-height: 100vh;
   padding: 90px 20px 50px;
-  background:
-    linear-gradient(rgba(2, 8, 23, 0.82), rgba(2, 8, 23, 0.88)),
-    url("/banner.jpeg");
-  background-size: cover;
-  background-position: center;
+  background-color: #ffffff;
   display: flex;
   justify-content: center;
+  align-items: flex-start;
+  box-sizing: border-box;
 }
 
 .detail-card {
   width: 100%;
   max-width: 1000px;
-  text-align: center;
-  background: rgba(15, 23, 42, 0.92);
+  background-color: #ffffff;
   border: 2px solid #f5b321;
   border-radius: 25px;
   padding: 45px 35px;
-  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.45);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.18);
+  box-sizing: border-box;
 }
+
+/* Main heading of every service page */
+
+.project-title {
+  color: #f5b321;
+  font-size: 32px;
+  font-weight: 800;
+  text-align: center;
+  margin: 0 0 25px;
+}
+
+/* Our Services heading */
+
+.services-heading {
+  color: #222222;
+  font-size: 26px;
+  font-weight: 800;
+  text-align: center;
+  margin: 0 0 40px;
+}
+
+/* Container for all service descriptions */
+
+.service-content {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+/* Each individual service */
+
+.service-item {
+  width: 100%;
+  margin-bottom: 35px;
+}
+
+/* Service name */
+
+.service-item h4 {
+  color: #222222;
+  font-size: 20px;
+  font-weight: 750;
+  text-align: left;
+  margin: 0 0 10px;
+}
+
+/* Service description */
+
+.service-item p {
+  color: #4b5563;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.8;
+  text-align: left;
+  margin: 0;
+}
+
+/* Bottom quotation */
+
+.bottom-quote {
+  color: #f5b321;
+  font-size: 25px;
+  font-weight: 800;
+  line-height: 1.5;
+  text-align: center;
+  margin: 45px 0 0;
+}
+
+/* =========================
+   STAFF OR PROFILE DETAILS
+========================= */
 
 .detail-card h1 {
   color: #f5b321;
   font-size: 50px;
   font-weight: 900;
-  margin-bottom: 25px;
+  text-align: center;
+  margin: 0 0 25px;
   text-transform: uppercase;
 }
 
@@ -40,42 +115,53 @@
 }
 
 .staff-name {
-  color: #ffffff;
+  color: #222222;
   font-size: 38px;
   font-weight: 800;
+  text-align: center;
   margin: 10px 0;
 }
 
 .designation {
-  color: #dbeafe;
+  color: #4b5563;
   font-size: 21px;
   font-weight: 600;
+  text-align: center;
   margin: 7px 0;
 }
 
+.qualification {
+  color: #f5b321;
+  font-size: 22px;
+  font-weight: 700;
+  text-align: center;
+  margin: 10px 0;
+}
+
+/* Use this only for ordinary descriptions,
+   not for the full services section */
+
 .description {
-  color: #f1f5f9;
-  font-size: 20px;
+  color: #4b5563;
+  font-size: 18px;
   line-height: 1.8;
-  max-width: 850px;
+  text-align: left;
+  max-width: 900px;
   margin: 25px auto;
 }
 
-.project-title {
-  color: #f5b321;
-  font-size: 30px;
-  font-weight: 800;
-  margin: 30px 0 20px;
-}
+/* =========================
+   PROJECT IMAGE AND VIDEO
+========================= */
 
 .project-video {
   width: 90%;
   max-width: 800px;
-  border: 3px solid #f5b321;
-  border-radius: 18px;
   display: block;
   margin: 20px auto;
-  background: black;
+  background-color: #000000;
+  border: 3px solid #f5b321;
+  border-radius: 18px;
 }
 
 .project-image {
@@ -83,12 +169,12 @@
   max-width: 500px;
   height: 350px;
   object-fit: cover;
-  display:block;
+  display: block;
   margin: 25px auto;
-  border-radius: 18px;
   border: 3px solid #f5b321;
+  border-radius: 18px;
   cursor: pointer;
-  transition: 0.3s ease;
+  transition: transform 0.3s ease;
 }
 
 .project-image:hover {
@@ -96,13 +182,37 @@
 }
 
 .tech-stack {
-  color: #93c5fd;
+  color: #2563eb;
   font-size: 20px;
   font-weight: 700;
   line-height: 1.7;
-  margin: 25px auto;
+  text-align: center;
   max-width: 850px;
+  margin: 25px auto;
 }
+
+/* =========================
+   ACHIEVEMENT BOX
+========================= */
+
+.achievement-box {
+  margin-top: 25px;
+  padding: 20px;
+  background-color: #fffaf0;
+  border: 2px solid #f5b321;
+  border-radius: 15px;
+}
+
+.achievement-box p {
+  color: #333333;
+  font-size: 18px;
+  line-height: 1.7;
+  margin: 10px 0;
+}
+
+/* =========================
+   BUTTONS
+========================= */
 
 .button-group {
   margin-top: 30px;
@@ -117,49 +227,116 @@
 .email-btn {
   display: inline-block;
   padding: 14px 28px;
+  border: none;
   border-radius: 12px;
   text-decoration: none;
+  text-align: center;
   font-size: 18px;
   font-weight: 700;
-  transition: 0.3s ease;
-  border: none;
   cursor: pointer;
+  transition:
+    background-color 0.3s ease,
+    transform 0.3s ease;
 }
 
-/* Pay Button */
 .pay-btn {
-  background: #f5b321;
+  background-color: #f5b321;
   color: #061426;
 }
 
 .pay-btn:hover {
-  background: #ffd166;
+  background-color: #ffd166;
   transform: translateY(-3px);
 }
 
-/* Call Button */
 .call-btn {
-  background: #22c55e;
-  color: white;
+  background-color: #22c55e;
+  color: #ffffff;
 }
 
 .call-btn:hover {
-  background: #16a34a;
+  background-color: #16a34a;
   transform: translateY(-3px);
 }
 
-/* Email Button */
 .email-btn {
-  background: #2563eb;
-  color: white;
+  background-color: #2563eb;
+  color: #ffffff;
 }
 
 .email-btn:hover {
-  background: #1d4ed8;
+  background-color: #1d4ed8;
   transform: translateY(-3px);
 }
 
-@media (max-width: 768px) {
+/* =========================
+   TABLET AND MOBILE VIEW
+========================= */
+
+@media screen and (max-width: 768px) {
+  .detail-page {
+    padding: 70px 12px 35px;
+  }
+
+  .detail-card {
+    padding: 30px 20px;
+    border-radius: 18px;
+  }
+
+  .detail-card h1 {
+    font-size: 34px;
+  }
+
+  .project-title {
+    font-size: 27px;
+  }
+
+  .services-heading {
+    font-size: 23px;
+    margin-bottom: 30px;
+  }
+
+  .service-item {
+    margin-bottom: 28px;
+  }
+
+  .service-item h4 {
+    font-size: 18px;
+  }
+
+  .service-item p,
+  .description {
+    font-size: 16px;
+    line-height: 1.7;
+  }
+
+  .bottom-quote {
+    font-size: 21px;
+    margin-top: 35px;
+  }
+
+  .staff-name {
+    font-size: 30px;
+  }
+
+  .designation {
+    font-size: 18px;
+  }
+
+  .profile-photo {
+    width: 160px;
+    height: 160px;
+  }
+
+  .project-image {
+    width: 100%;
+    height: auto;
+  }
+
+  .project-video {
+    width: 100%;
+  }
+
   .button-group {
     flex-direction: column;
     align-items: center;
@@ -169,57 +346,40 @@
   .call-btn,
   .email-btn {
     width: 220px;
-    text-align: center;
   }
 }
 
-@media (max-width: 768px) {
+/* =========================
+   SMALL MOBILE VIEW
+========================= */
+
+@media screen and (max-width: 480px) {
+  .detail-page {
+    padding: 60px 8px 25px;
+  }
+
   .detail-card {
-    padding: 30px 18px;
+    padding: 25px 15px;
   }
 
-  .detail-card h1 {
-    font-size: 34px;
+  .project-title {
+    font-size: 24px;
   }
 
-  .project-image,
-  .project-video {
-    width: 100%;
+  .services-heading {
+    font-size: 21px;
   }
-  
-}
-.qualification{
-  color: #f5b321;
-  font-size: 22px;
-  font-weight: 700;
-  margin: 10px 0;
-}
-.achievement-box {
-  margin-top: 25px;
-  padding: 20px;
-  background: rgba(255,255,255,0.1);
-  border: 2px solid #f5b321;
-  border-radius: 15px;
-}
 
-.achievement-box p {
-  color: white;
-  font-size: 18px;
-  margin: 10px 0;
-}
+  .service-item h4 {
+    font-size: 17px;
+  }
 
-.email-btn {
-  display: inline-block;
-  margin-left: 15px;
-  margin-top: 25px;
-  padding: 12px 30px;
-  background: #ffffff;
-  color: #0b1d3a;
-  text-decoration: none;
-  border-radius: 10px;
-  font-weight: bold;
-}
+  .service-item p,
+  .description {
+    font-size: 15px;
+  }
 
-.email-btn:hover {
-  background: #f5b321;
+  .bottom-quote {
+    font-size: 19px;
+  }
 }

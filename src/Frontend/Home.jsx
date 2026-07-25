@@ -18,8 +18,8 @@ function Home() {
 
           <p className="hero-text">
             We provide reliable civil engineering, architectural planning,
-            valuation, vastu, software engineering and real estate services
-            with <b> 30+ years of professional experience.</b>
+            valuation, vastu, software engineering, project report, bank loan and real estate services.
+            
           </p>
 
           {/* CONTACT DETAILS INSTEAD OF SERVICE BOXES */}
@@ -44,10 +44,25 @@ function Home() {
         <h2>About Bhavani Engineers</h2>
 
         <p>
-          Bhavani Engineers is a professional civil engineering and valuation
-          consultancy office. We provide trusted services in civil consultancy,
-          building planning, property valuation, real estate guidance and vastu
-          consultancy.
+          Bhavani Engineers is a trusted civil engineering and consultancy firm established in 1996. With nearly 30 
+          years of experience in the civil engineering field, we have built a strong reputation for providing reliable,
+           accurate, and practical solutions for residential, commercial & industrial construction projects.<br />
+<br />
+We offer comprehensive civil consultancy services, guiding our clients from the initial planning and approval 
+stage through construction and successful project completion. Our team combines technical knowledge, field experience, 
+attention to detail, and professional commitment to deliver solutions that meet the functional, aesthetic, regulatory,
+ and budgetary requirements of every client.<br />
+ <br />
+ At Bhavani Engineers, we understand that constructing a home is an important investment and a major milestone for every client.
+ We therefore approach each project with responsibility, transparency, technical accuracy, and personal attention.<br />
+ <br />
+Our objective is to provide dependable civil engineering solutions that ensure proper planning, quality construction,
+ cost efficiency, and long-term value. From the first discussion and design stage to estimation, approval, supervision, 
+ and final completion, Bhavani Engineers remains committed to supporting clients at every stage of their construction journey.<br />
+<br />
+With decades of practical experience and a customer-focused approach, Bhavani Engineers continues 
+to be a reliable partner for residential planning, construction consultancy, valuation, quantity surveying, billing, and supervision services.
+
         </p>
 
         <p>
@@ -75,11 +90,11 @@ function Home() {
           </Link>
 
           <Link to="/architecture-design" className="service-card">
-            <div className="service-icon">📐</div>
-            <h3>Architectural Consultancy</h3>
+            <div className="service-icon">🕉️</div>
+            <h3>Vastu Consultancy</h3>
             <p>
-              Professional architectural planning for residential, commercial
-              and industrial buildings.
+              Vastu consultancy provides expert guidance for planning buildings according to directions, natural light, airflow, 
+              and traditional Vastu principles.
             </p>
           </Link>
 
@@ -93,11 +108,11 @@ function Home() {
           </Link>
 
           <Link to="/civil-vastu" className="service-card">
-            <div className="service-icon">🕉️</div>
-            <h3>Civil & Vastu Consultancy</h3>
+            <div className="service-icon">📐</div>
+            <h3>Civil & Architectural Consultancy</h3>
             <p>
-              Practical vastu guidance and civil engineering advice for homes,
-              offices and commercial buildings.
+              Civil and architectural consultancy provides expert guidance in building planning, design, approvals, estimation,
+               construction, and project supervision.
             </p>
           </Link>
 
